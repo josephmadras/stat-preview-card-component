@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: #000;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      main {
+        display: flex;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 10px;
+        overflow: hidden;
+        height: 300px;
+        width: 800px;
+      }
+
+      main section {
+        order: 1;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px;
+        /* align-items: center; */
+        /* height: 100%; */
+      }
+
+      main img {
+        order: 2;
+        width: 50%;
+      }
+
+      .stats {
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="./images/image-header-desktop.jpg" alt="" />
+      <section>
+        <h1>Get insights that help your business grow.</h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <div><strong>10k+ </strong>companies</div>
+          <div><strong>314</strong>templates</div>
+          <div><strong>12m+</strong>queries</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
